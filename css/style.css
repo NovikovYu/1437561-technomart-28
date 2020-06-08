@@ -12,18 +12,6 @@
   --basic-orange: #FFD180;
 }
 
-/*
-header {
-  background-color: #ff9;
-}
-main {
-  background-color: #f9f;
-}
-footer {
-  background-color: rgba(0, 0, 0, 0.0001);
-}
-*/
-
 body{
   min-width: 960px;
   margin: 0;
@@ -32,14 +20,76 @@ body{
   font-size: 13px;
   line-height: 24px;
   font-weight: normal;
-  color: var (--basic-red);
-  background-color: var (--basic-gray);
+  color: var(--basic-black);
+  background-color: var(--basic-light-gray);
 }
 a{
   text-decoration: none;
+
 }
 img {
   min-weight: 100%;
   height: auto;
 }
 /*font-family: 'PT Sans', sans-serif;*/
+
+
+/* main-navigation */
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 28px;
+  color: var(--basic-blue);
+  background-color: rgba(0, 0, 0, 0.01);
+  text-align: center;
+}
+.upper-nav-row {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--basic-white);
+  background-color: var(--basic-deep-blue);
+}
+
+.header-nav {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--basic-white);
+  background-color: var(--basic-deep-blue);
+}
+.header-nav a, .upper-nav-row a {
+    color: var(--basic-white);
+}
+/*.upper-nav-row a:haver, .upper-nav-row a:focus {
+  color: var(--basic-white);
+}*/
+
+/*?????????????*/
+.header-nav a:hover, .header-nav a:focus {
+    background-color: var(--basic-deep-blue);
+}
+
+.main-navigation h2 {
+  font-size: 16px;
+  line-height: 23px;
+  color: var(--basic-red);
+  text-align: left;
+}
+
+
+.header-nav {
+  list-style: none;
+}
+
+.main-navigation .tel{
+  font-size: 21px;
+  line-height: 31px;
+  color: var(--basic-red);
+}
+
+.main-navigation button{
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--basic-black);
+  background-color: : var(--basic-white);
+  border: none;
+}
