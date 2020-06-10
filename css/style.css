@@ -192,13 +192,79 @@ background-color: var(--basic-deep-blue);
 .product-card {
   width: 220px;
   height: 318px;
+  text-align: center;
+  font-family: "PT Sans";
 
 }
 .product-name {
-  font-family: "PT Sans";
+  font-weight: bold;
   font-size: 18px;
   line-height: 20px;
+  color: var(--basic-black)
 }
+
+.price {
+  font-size: 17px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: var(--basic-dark-gray);
+}
+
+.new-price {
+  width: 220px;
+  height: 318px;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+}
+.new {
+  font-family: "Cuprum", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+  display: flex;
+
+  transform: rotate(45deg);
+
+}
+
+.action {
+  font-family: "Cuprum", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  width: 141px;
+  height: 38px;
+  border-radius: 2px;
+}
+
+.to-basket {
+  color: var(--basic-white);
+  background-color: var(--basic-green);
+  border-radius: 2px;
+
+}
+
+.to-bookmarks {
+  color: var(--basic-blue);
+  border: 2px solid var(--basic-green);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
