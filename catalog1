@@ -112,12 +112,12 @@
 
      <section>
         <ul>
-          <li>
+          <li class="product-card">
             <a href="blank.html">
               <img src="img/bosсh-bfg6000.jpg" width="144" height="128" alt="крупная и внушающая доверие модель перфоратора">
               <!--<img src="img/catalog_new.svg" width="50" height="50">-->
               <span> New </span>
-              <p>Перфоратор BOSCH
+              <p class="product-name">Перфоратор BOSCH
                 BFG 6000</p>
             </a>
             <div>

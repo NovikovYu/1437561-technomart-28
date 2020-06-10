@@ -107,6 +107,9 @@ img {
   font-size: 21px;
   line-height: 31px;
   color: var(--basic-red);
+  width: 270px;
+  height: 45px;
+  border: 2px solid white;
 }
 
 .main-navigation button{
@@ -117,6 +120,20 @@ img {
   border: none;
 }
 
+.user {
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--basic-black);
+  background-color: : var(--basic-white);
+  width: 299px;
+  height: 45px;
+}
+
+.users-cabs {
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--basic-blue);
+}
 /*body
 font-size: 16px;
 line-height: 23px;
@@ -171,6 +188,19 @@ background-color: var(--basic-deep-blue);
   color: var(--basic-white);
   background-color: var(--basic-red);
 }
+
+.product-card {
+  width: 220px;
+  height: 318px;
+
+}
+.product-name {
+  font-family: "PT Sans";
+  font-size: 18px;
+  line-height: 20px;
+}
+
+
 
 /*footer*/
 
