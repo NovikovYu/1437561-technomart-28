@@ -50,8 +50,8 @@
     </header>
 
 
-    <main>
-      <ul>
+    <main class="catalog-page">
+      <ul class="crumbs">
         <li >
           <a>Каталог</a>
         </li>
@@ -63,12 +63,12 @@
         </li>
       </ul>
 
-      <h1>Перфораторы</h1>
+      <h1 class="category-name">Перфораторы</h1>
       <section>
       <form action="https://echo.htmlacademy.ru" method="get">
-        <fieldset>
+        <fieldset class="filter manufacturer">
           <legend>Производители:</legend>
-            <ul>
+            <ul class="filters">
 
               <li>
                 <input type="checkbox" id="filter-bosch" name="BOSCH" checked></input>
@@ -93,7 +93,7 @@
             </ul>
         </fieldset>
 
-        <fieldset>
+        <fieldset class="filter feed">
            <legend>Питание:</legend>
             <ul>
              <li>
@@ -106,21 +106,21 @@
              </li>
             </ul>
         </fieldset>
-        <button type="submit">Показать</button>
+        <button class="results" type="submit">Показать</button>
       </form>
      </section>
 
-     <section>
+     <section class="cards">
         <ul>
           <li class="product-card">
             <a href="blank.html">
               <img src="img/bosсh-bfg6000.jpg" width="144" height="128" alt="крупная и внушающая доверие модель перфоратора">
               <!--<img src="img/catalog_new.svg" width="50" height="50">-->
-              <span class="new"> New </span>
+              <span class="new visually-hidden" > New </span>
               <p class="product-name">Перфоратор BOSCH
                 BFG 6000</p>
             </a>
-            <div>
+            <div class="visually-hidden">
               <button type="button" class="action to-basket">Купить</button>
               <button type="button" class="action to-bookmarks">В закладки</button>
             </div>
@@ -129,10 +129,9 @@
 
           </li>
 
-          <li>
+<!--          <li>
             <a href="blank.html">
               <img src="img/bosсh-bfg6000.jpg" width="144" height="128" alt="крупная и внушающая доверие модель перфоратора">
-              <!--<img src="img/catalog_new.svg" width="50" height="50">-->
               <span> New </span>
               <p>Перфоратор BOSCH
                 BFG 6000</p>
@@ -144,28 +143,27 @@
             <span>30500Р.</span>
             <span>25500Р.</span>
           </li>
+-->
 
-          <li>
+          <li class="product-card">
             <a href="blank.html">
-              <img src="img/bosсh-bfg6000.jpg" width="144" height="128" alt="крупная и внушающая доверие модель перфоратора">
-              <!--<img src="img/catalog_new.svg" width="50" height="50">-->
-              <span> New </span>
-              <p>Перфоратор BOSCH
+              <img src="img/bosсh-bfg6000.jpg" width="144" height="128" alt="крупная и внушающая доверие модель перфоратора" class="new visually-hidden">
+              <span class="new"> New </span>
+              <p class="product-name">Перфоратор BOSCH
                 BFG 6000</p>
             </a>
-            <div>
-              <button type="button">Купить</button>
-              <button type="button">В закладки</button>
+            <div class="">
+              <button type="button" class="action to-basket">Купить</button>
+              <button type="button" class="action to-bookmarks">В закладки</button>
             </div>
-            <span>30500Р.</span>
-            <span>25500Р.</span>
+            <span class="old-price price">30500Р.</span>
+            <span class="new-price price">25500Р.</span>
           </li>
 
-
+<!--
           <li>
             <a href="blank.html">
               <img src="img/bosсh-bfg3000.jpg" width="144" height="128" alt="модель перфоратор среднего размера">
-              <!--<img src="img/catalog_new.svg" width="50" height="50">-->
               <span> New </span>
               <p>Перфоратор BOSCH
                 BFG 3000</p>
@@ -181,7 +179,6 @@
           <li>
             <a href="blank.html">
               <img src="img/bosсh-bfg6000.jpg" width="144" height="128" alt="крупная и внушающая доверие модель перфоратора">
-              <!--<img src="img/catalog_new.svg" width="50" height="50">-->
               <span> New </span>
               <p>Перфоратор BOSCH
                 BFG 6000</p>
@@ -197,7 +194,6 @@
           <li>
             <a href="blank.html">
               <img src="img/bosсh-bfg2000.jpg" width="144" height="128" alt="компактная модель перфоратор">
-              <!--<img src="img/catalog_new.svg" width="50" height="50">-->
               <span> New </span>
               <p>Перфоратор BOSCH
                 BFG 2000</p>
@@ -214,7 +210,6 @@
           <li>
             <a href="blank.html">
               <img src="img/bosсh-bfg3000.jpg" width="144" height="128" alt="модель перфоратор среднего размера">
-              <!--<img src="img/catalog_new.svg" width="50" height="50">-->
               <span> New </span>
               <p>Перфоратор BOSCH
                 BFG 3000</p>
@@ -230,7 +225,6 @@
           <li>
             <a href="blank.html">
               <img src="img/bosсh-bfg6000.jpg" width="144" height="128" alt="крупная и внушающая доверие модель перфоратора">
-              <!--<img src="img/catalog_new.svg" width="50" height="50">-->
               <span> New </span>
               <p>Перфоратор BOSCH
                 BFG 6000</p>
@@ -246,7 +240,6 @@
           <li>
             <a href="blank.html">
               <img src="img/bosсh-bfg2000.jpg" width="144" height="128" alt="компактная модель перфоратор">
-              <!--<img src="img/catalog_new.svg" width="50" height="50">-->
               <span> New </span>
               <p>Перфоратор BOSCH
                 BFG 2000</p>
@@ -257,7 +250,7 @@
             </div>
             <span>12500Р.</span>
           </li>
-
+-->
       </ul>
       </section>
 
