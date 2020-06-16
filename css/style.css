@@ -75,33 +75,33 @@ img {
   background-color: var(--basic-transparent-black);
   text-align: center;
 }
-.upper-nav-row {
+.upper-navigation-row {
   font-size: 18px;
   line-height: 24px;
   color: var(--basic-white);
   background-color: var(--basic-deep-blue);
 }
 
-.header-nav {
+.header-navigation {
   font-size: 18px;
   line-height: 24px;
   color: var(--basic-white);
   background-color: var(--basic-blue);
 }
-.header-nav a, .upper-nav-row a {
+.header-navigation a, .upper-navigation-row a {
     color: var(--basic-white);
 }
 
-.header-nav a:hover, .header-nav a:focus {
+.header-navigation a:hover, .header-navigation a:focus {
   background-color: var(--basic-deep-blue);
   border: none;
 }
 
-.header-nav a:active  {
+.header-navigation a:active  {
   background-color: var(--basic-night-blue:);
 }
 
-.header-nav a:hover, .header-nav a:focus {
+.header-navigation a:hover, .header-navigation a:focus {
     background-color: var(--basic-deep-blue);
 }
 
@@ -113,11 +113,11 @@ img {
 }
 
 
-.header-nav {
+.header-navigation {
   list-style: none;
 }
 
-.main-navigation .tel{
+.main-navigation .phone{
   font-size: 21px;
   line-height: 31px;
   color: var(--basic-red);
@@ -146,28 +146,28 @@ img {
   height: 45px;
 }
 
-.users-cabs {
+.users-cabinet {
   font-size: 16px;
   line-height: 18px;
   color: var(--basic-blue);
 }
 
-.about-co h2 {
+.about-company h2 {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
 }
-.about-co p{
+.about-company p{
   font-family: "PT Sans";
 }
 
-.about-co ul {
+.about-company ul {
   font-size: 18px;
   line-height: 24px;
   list-style: none;
 }
 
-.about-co-more {
+.about-company-more {
   width: 220px;
   height: 38px;
   font-size: 14px;
@@ -203,11 +203,11 @@ img {
   background-color: var(--basic-white);
 }
 
-.crumbs {
+.breadcrumbs {
   list-style: none;
 }
 
-.crumbs a {
+.breadcrumbs a {
   font-family: "PT Sans";
   font-size: 13px;
   line-height: 18px;
@@ -216,7 +216,7 @@ img {
   color: var(--basic-black);
 }
 
-.category-name {
+.category-title {
   font-size: 30px;
   line-height: 30px;
   text-align: center;
@@ -306,19 +306,37 @@ img {
 */
 
 .new {
+  box-sizing: border-box;
+
+
   font-family: "Cuprum", sans-serif;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
-  color: var(--basic-white);
-  background-color: var(--basic-red);
+  /*color: var(--basic-white);*/
+  /*background-color: var(--basic-red);*/
+
+
+
+
   display: flex;
   text-align: center;
-
-  width: 70px;
-  height: 70px;
   transform: rotate(45deg);
 
+
+
+
+  width: 70px;
+  height: 35px;
+  border-left: 20px solid transparent;
+  border-right:  20px solid transparent;
+  border-bottom:  20px solid var(--basic-red);
+
+
+}
+.new span {
+  position: absolute;
+  bottom: 5px;
 }
 
 .action {
@@ -368,7 +386,7 @@ footer a {
   line-height: 24px;
 
 }
-.footer-main-nav a{
+.footer-main-navigation a{
   text-align: center;
 }
 
@@ -379,7 +397,7 @@ footer a {
 }
 */
 
-.footer-extra-nav a{
+.footer-extra-navigation a{
   text-align: center;
   color: var(--basic-ultralight-orange);
 }
@@ -406,4 +424,3 @@ footer a {
 .footer-other a {
   color: var(--basic-ultralight-orange);
 }
-*/
