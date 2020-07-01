@@ -9,102 +9,110 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-
-    <header>
-      <section>
-        <a href="index.html">
-          <img src="img/logo.png" width="220" height="47" alt="Логотип магазина "ТЕХНОМАРТ"">
-        </a>
-        <input type="text" placeholder="Поиск:">
-        <a href="#">Закладки: <span>0</span></a>
-        <a href="#">Корзина: <span>0</span></a>
-        <a href="#">Оформить заказ</a>
+    <header class="main-navigation">
+      <section class="upper-navigation-row">
+        <div class="upper-navigation-row-content">
+          <a href="index.html" >
+            <img src="img/logo.png" width="220" height="47" alt="Логотип магазина "ТЕХНОМАРТ"">
+          </a>
+          <input class="search-field" type="text" placeholder="Поиск:">
+          <a href="#" class="bookmarks">Закладки: <span>0</span></a>
+          <a href="#" class="basket">Корзина: <span>0</span></a>
+          <a href="#" class="make-order">Оформить заказ</a>
+        </div>
       </section>
-
-      <section>
-       <h2>
-         Интернет-магазин
-         строительных материалов
-         и инструментов для ремонта
-       </h2>
-       <a href="tel:+78125550555">+7 (812) 555 05 55</a>
-       <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/18</address>
-       <a href="#">Войти</a>
-       <a href="#">Регистрация</a>
+      <section class="midle-navigation-row">
+          <h2 class="left-side-midle-navigation-row">
+            Интернет-магазин
+            строительных материалов
+            и инструментов для ремонта
+          </h2>
+        <div class="central-side-midle-navigation-row">
+          <a class="phone" href="tel:+78125550555">+7 (812) 555 05 55</a>
+          <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/18</address>
+        </div>
+        <div class="right-side-midle-navigation-row">
+          <a href="#" class="user">Равшан Джамшутович</a>
+          <div class="users-menu">
+          <a href="#" class="my-orders">Мои заказы</a>
+          <a href="#" class="my-cabinet">Личный кабинет</a>
+          </div>
+        </div>
       </section>
-
-      <nav>
-        <ul>
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="#">Компания</a></li>
-          <li><a href="catalog.html">Каталог</a></li>
-          <li><a href="#">Новости</a></li>
-          <li><a href="#">Спецпредложения</a></li>
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
-      </nav>
+        <nav>
+          <ul class="header-navigation">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#">Компания</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Спецпредложения</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
     </header>
-
-
     <main>
       <strong>Упс, этой страницы пока нет, но телефон пока есть <a href="tel:+78125550555">+7 (812) 555 05 55</a></strong>
       <a href="index.html">Вернуться на главную</a>
     </main>
-
-
-
     <footer>
-      <section>
-        <a href="index.html">
-        <img src="img/logo.png" width="220" height="68" alt="Логотип магазина "ТЕХНОМАРТ"">
-        </a>
-
-        <ul>
-          <li><a href="#">Компания</a></li>
-          <li><a href="#">Новости</a></li>
-          <li><a href="catalog.html">Каталог</a></li>
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
-
-        <div>
-        <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/18</address>
-          <a href="tel:+78125550555">+7 (812) 555 05 55</a>
+      <div class="footer-main-background">
+      <section class="footer-main">
+        <div class="footer-main-upper-row">
+          <a href="index.html">
+            <img src="img/logo.png" width="220" height="68" alt="Логотип магазина "Техномарт"">
+          </a>
+          <ul class="footer-main-navigation">
+            <li><a href="#">Компания</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
         </div>
-
-        <ul>
-          <li><a href="#">Материалы</a></li>
-          <li><a href="#">Техника</a></li>
-          <li><a href="#">Инструмент</a></li>
-          <li><a href="#">Спецпредложения</a></li>
-        </ul>
-      </section>
-
-      <section>
+        <div class="footer-main-bottom-row">
+          <div class="left-part-footer-main-bottom-row">
+            <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/18</address>
+            <a href="tel:+78125550555">+7 (812) 555 05 55</a>
+          </div>
+          <ul class="footer-extra-navigation">
+            <li><a href="#">Материалы</a></li>
+            <li><a href="#">Техника</a></li>
+            <li><a href="#">Инструмент</a></li>
+            <li><a href="#">Спецпредложения</a></li>
+          </ul>
+        </section>
+        </div>
+      </div>
+      <div class="footer-other-background">
+      <section class="footer-other">
         <p> © 2010-2020 Компания "Техномарт"
             Все права защищены
         </p>
-
-        <ul>
-          <li><a href="https://vk.com/" target="_blank">VK</a></li>
-          <li><a href="https://www.facebook.com/" target="_blank">FB</a></li>
-          <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        <ul class="social-networks">
+          <li><a href="https://vk.com/" target="_blank">
+            <span class="visually-hidden">VK</span>
+            <img src="img/icon-vk.svg" width="26" height="15">
+          </a></li>
+          <li><a href="https://www.facebook.com/" target="_blank">
+            <span class="visually-hidden">FB</span>
+            <img src="img/icon-fb.svg" width="12" height="22">
+          </a></li>
+          <li><a href="https://www.instagram.com/" target="_blank">
+            <span class="visually-hidden">Instagram</span>
+            <img src="img/icon-insta.svg" width="21" height="21">
+          </a></li>
         </ul>
-
-        <div>
+        <div class="feedback">
           <span>Обратная связь:</span>
           <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
         </div>
-
-        <div>
+        <div class="copyright">
           <span>Разработано - </span>
           <a href="https://htmlacademy.ru/" target="_blank">htmlacademy.ru</a>
         </div>
-
+      </div>
       </section>
-
-
     </footer>
     <script src="js/script.js"></script>
   </body>
