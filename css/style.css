@@ -9,6 +9,7 @@
   --basic-haze-gray: #EAEAEA;
   --basic-light-gray: #F1F5F7;
   --basic-extra-light-gray:  #E5E5E5;
+  --basic-super-extra-light-gray:  #f4f4f4;
   --basic-milk-white: #F3F7F9;
   --basic-lightmilk-white: #F9F5F0;
   --basic-extralightmilk-white: #F2F6F8;
@@ -59,6 +60,7 @@ input[type="radio"].visually-hidden {
 }
 
 body{
+  position: relative;
   min-width: 960px;
   margin: 0;
   padding: 0;
@@ -914,3 +916,225 @@ footer a {
 .footer-other a {
   color: var(--basic-ultralight-orange);
 }
+
+.modal-map {
+  display: none;
+  position: absolute;
+  left: calc(50% - 471px);
+  bottom: 324px;
+  margin: auto;
+  padding: 0;
+  width: 943px;
+  box-shadow: 0px 4px 20px rgba(9, 0, 0, 0.15);
+
+}
+
+.modal-map img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.modal-map::before {
+  position: absolute;
+  top: 0px;
+  content: "";
+  width: 943px;
+  height: 7px;
+  background-color: var(--basic-red);
+}
+
+.modal-close {
+  position: absolute;
+  /* top: 16px;
+  right: 19px; */
+  width: 21px;
+  height: 21px;
+  /* background-image: url(../img/icon-close.svg);
+  background-repeat: no-repeat;
+  border: none; */
+}
+
+.modal-close::before,
+.modal-close::after {
+  content: "";
+  position: absolute;
+  top: 16px;
+  right: 19px;
+  width: 28px;
+  height: 4px;
+  border-radius: 1px;
+  background-color: var(--basic-red);
+}
+
+
+.modal-close::before {
+  transform: rotate(45deg);
+}
+
+.modal-close::after {
+  transform: rotate(-45deg);
+}
+
+
+
+
+
+
+
+
+
+
+/* .modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  color: var(--basic-black);
+  background-color: var(--basic-extra-light);
+  background-image: url("img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+} */
+
+
+
+
+
+
+.modal-write-us {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+
+  margin: auto;
+
+  top: auto;
+  bottom: 351px;
+  width: 620px;
+  /* min-height: 430px; */
+  padding: 46px 80px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.modal-write-us p {
+  margin: 0;
+}
+
+.modal-write-us input {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--basic-dark-gray);
+  outline: 1px solid red;
+}
+
+.background-bottom-part {
+  background-color: var(--basic-super-extra-light-gray); }
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* text-align: center; */
+  /* width: 620px;
+  min-height: 112px;
+
+}*/
+
+.name-field-block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+
+  outline: 1px solid red;
+}
+
+.name-field-block label {
+  margin-bottom: 11px;
+}
+
+.name-field {
+  width: 220px;
+  min-height: 38px;
+}
+
+
+.e-mail-field-block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+
+  outline: 1px solid red;
+}
+
+.e-mail-field-block label {
+  margin-bottom: 11px;
+}
+
+.e-mail-field {
+  width: 220px;
+  min-height: 38px;
+}
+
+
+
+.message-field-block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 460px;
+
+  outline: 1px solid red;
+}
+
+.message-field-block label {
+  margin-bottom: 11px;
+}
+
+.message-field {
+  width: 460px;
+  min-height: 114px;
+}
+
+
+/* .background-bottom-part button {
+  width: 460px;
+  min-height: 38px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* .modal-write-us {
+  display: flex;
+  box-sizing: border-box;
+  width: 620px;
+  min-height: 430px;
+  margin: 0 auto;
+  /* padding: 39px 80px 0px; */
+  /* outline: 1px solid orange; */
+}
+
+/* .modal-write-us label {
+  display: block;
+}
+*/
