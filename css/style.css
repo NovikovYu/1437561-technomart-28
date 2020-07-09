@@ -948,13 +948,15 @@ footer a {
 
 .modal-close {
   position: absolute;
+
   /* top: 16px;
   right: 19px; */
-  width: 21px;
-  height: 21px;
+  /* width: 21px;
+  height: 21px; */
   /* background-image: url(../img/icon-close.svg);
-  background-repeat: no-repeat;
-  border: none; */
+  background-repeat: no-repeat;*/
+
+  border: none;
 }
 
 .modal-close::before,
@@ -978,63 +980,28 @@ footer a {
   transform: rotate(-45deg);
 }
 
-
-
-
-
-
-
-
-
-
-/* .modal {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  color: var(--basic-black);
-  background-color: var(--basic-extra-light);
-  background-image: url("img/pattern-light.jpg");
-  background-position: 0 0;
-  background-repeat: repeat;
-} */
-
-
-
-
-
-
 .modal-write-us {
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-
-
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   box-sizing: border-box;
-
   margin: auto;
-
   top: auto;
   bottom: 351px;
   width: 620px;
-  /* min-height: 430px; */
-  padding: 46px 80px;
-
+  padding: 41px 80px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-
   color: var(--basic-black);
   background-color: var(--basic-white);
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
-
+  border-top: 7px solid var(--basic-red);
 }
 
 .modal-write-us p {
@@ -1048,17 +1015,15 @@ footer a {
   font-size: 13px;
   line-height: 24px;
   color: var(--basic-dark-gray);
-  outline: 1px solid red;
+  border: 2px solid var(--basic-gray);
+  box-sizing: border-box;
+  border-radius: 2px;
 }
-
-
 
 .name-field-block {
   display: flex;
   flex-wrap: wrap;
-  width: 200px;
-
-  outline: 1px solid red;
+  width: 220px;
 }
 
 .name-field-block label {
@@ -1066,17 +1031,16 @@ footer a {
 }
 
 .name-field {
+  box-sizing: border-box;
   width: 220px;
   min-height: 38px;
+  padding: 7px 8px 7px 12px;
 }
-
 
 .e-mail-field-block {
   display: flex;
   flex-wrap: wrap;
-  width: 200px;
-
-  outline: 1px solid red;
+  width: 220px;
 }
 
 .e-mail-field-block label {
@@ -1084,29 +1048,28 @@ footer a {
 }
 
 .e-mail-field {
+  box-sizing: border-box;
   width: 220px;
   min-height: 38px;
+  padding: 7px 8px 7px 12px;
 }
-
-
 
 .message-field-block {
   display: flex;
   flex-wrap: wrap;
   width: 460px;
-
-
-  outline: 1px solid red;
 }
 
 .message-field-block label {
-    margin-top: 13px;
-    margin-bottom: 11px;
+  margin-top: 13px;
+  margin-bottom: 11px;
 }
 
 .message-field {
+  box-sizing: border-box;
   width: 460px;
   min-height: 114px;
+  padding: 7px 8px auto 12px;
 }
 
 
@@ -1126,35 +1089,18 @@ footer a {
   margin-left: auto;
   margin-right: auto;
   z-index: 2;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+  border: none;
 }
 
-
-  /* background-color: var(--basic-super-extra-light-gray); } */
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* text-align: center; */
-  /*
-
-}*/
-
-
-
-
-/*
-} */
-
-/* .modal-write-us {
-  display: flex;
-  box-sizing: border-box;
-  width: 620px;
-  min-height: 430px;
-  margin: 0 auto;
-  /* padding: 39px 80px 0px; */
-  /* outline: 1px solid orange; */
-/* } */
-
-/* .modal-write-us label {
-  display: block;
+.login-modal-close {
+  top: 7px;
+  right: -12px;
 }
-*/
