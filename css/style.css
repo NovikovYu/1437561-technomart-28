@@ -1450,14 +1450,35 @@ footer a {
   background-image: url("../img/icon-left.svg");
 }
 
+.slide-next {
+  position: absolute;
+  right: 24px;
+  top: 122px;
+  width: 22px;
+  height: 40px;
+  background-image: url("../img/icon-right.svg");
+}
 
+.point {
+  position: absolute;
+  bottom: 36px;
+  width: 6px;
+  height: 6px;
+  border: 2px solid var(--basic-white);
+  border-radius: 50%;
+  background-color: var(--basic-white);
+}
+.first-point {
+  left: 295px;
+}
 
+.second-point {
+  right: 295px;
+}
 
-
-
-
-
-
+.active-point {
+  background-color: var(--basic-red);
+}
 
 
 
@@ -1514,6 +1535,7 @@ footer a {
 }
 
 .card-instruments {
+  margin-left: 20px;
   background-color: var(--basic-ocean-blue);
 }
 
